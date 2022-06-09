@@ -15,11 +15,16 @@ npm install --save react-swipeable-views-2
  components to be shown as the swipeable screen is written inside the project component as shown below.
 
  ```js
- import React from 'react';
+ import React,{useState} from 'react';
  import SwipeableScreens from 'react-swipeable-views-2'
 
-const MyComponent = () => (
- <SwipeableScreens className="w-full">
+export default function MyComponent(){
+
+const[slide,set_slide]=useState(0);
+
+return(
+
+  <SwipeableScreens currentSlide={slide} onChange={(val)=>set_slide(val)} className="w-full">
         
          <div className="w-full bg-green-500">
             slide number 1
@@ -38,8 +43,9 @@ const MyComponent = () => (
           </div>
 
  </SwipeableScreens>
- );
+ 
+);
+}
 
-export default MyComponent;
  
 ```

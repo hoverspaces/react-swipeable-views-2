@@ -6,9 +6,9 @@ import React, { useState } from "react";
 export default function SwipeableScreens({
   className,
   style,
-  children,
   currentSlide,
   onChange,
+  children,
   drag_length = 80,
 }) {
   const [touchStart, set_touchStart] = useState();
