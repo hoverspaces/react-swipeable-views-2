@@ -4,6 +4,12 @@
 
  This project lets you swipe swipe on the present component left and right to move the renderer to the component on the right and component on the left respectivly. You can set up an array of components to be selected back and forth.
 
+## Installation
+
+```
+npm install --save react-swipeable-views-2
+```
+
  ## Usage
 
  components to be shown as the swipeable screen is written inside the project component as shown below.
