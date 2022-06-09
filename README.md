@@ -8,9 +8,11 @@
 
  components to be shown as the swipeable screen is written inside the project component as shown below.
 
- ```
+ ```js
+ import React from 'react';
  import SwipeableScreens from 'react-swipeable-views-2'
 
+const MyComponent = () => (
  <SwipeableScreens className="w-full">
         
          <div className="h-40 w-full bg-green-500">
@@ -30,5 +32,8 @@
           </div>
 
  </SwipeableScreens>
+ );
+
+export default MyComponent;
  
 ```
