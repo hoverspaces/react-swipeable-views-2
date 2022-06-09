@@ -1,4 +1,4 @@
-# About the project
+# react-swipeable-views-2
  
  ## Description 
 
@@ -21,19 +21,19 @@ npm install --save react-swipeable-views-2
 const MyComponent = () => (
  <SwipeableScreens className="w-full">
         
-         <div className="h-40 w-full bg-green-500">
+         <div className="w-full bg-green-500">
             slide number 1
           </div>
 
-           <div className="h-40 w-full bg-red-500">
+           <div className="w-full bg-red-500">
             slide number 2
           </div>
 
-           <div className="h-40 w-full bg-yellow-400">
+           <div className="w-full bg-yellow-400">
             slide number 3
           </div>
 
-           <div className="h-40 w-full bg-blue-500">
+           <div className="w-full bg-blue-500">
             slide number 4
           </div>
 
