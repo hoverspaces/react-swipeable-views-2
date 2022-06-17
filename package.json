@@ -1,6 +1,7 @@
 {
   "name": "@hoverspaces/react-swipeable-views-2",
-  "version": "1.0.1",
+  "version": "1.0.3",
+  "main": "lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -40,7 +41,7 @@
     "tailwindcss": "^3.0.24"
   },
   "description": "This project lets you swipe swipe on the present component left and right to move the renderer to the component on the right and component on the left respectivly. You can set up an array of components to be selected back and forth.",
-  "main": "postcss.config.js",
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoverspaces/react-swipeable-views-2.git"
